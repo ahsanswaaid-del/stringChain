@@ -13,7 +13,7 @@ public class CUnitTest {
         // קוראים ל־C — לא לסטאב!
         String result = c.process("HE");
 
-        //   בבכמאמתים את הפלט
+        //   מאמתים את הפלט
         assertEquals("HELX", result);
     }
 }
